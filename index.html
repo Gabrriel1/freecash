@@ -5,83 +5,118 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Être payé pour jouer et faire défiler</title>
   <link rel="icon" href="data:,">
-  <meta name="description" content="Téléchargez. Faites défiler & testez des jeux. Paiement immédiat." />
+  <meta name="description" content="Téléchargez. Faites défiler & testez des jeux. Payé instantanément." />
   <link rel="preload" as="image" href="assets/freecash-logo.webp" />
   <link rel="preload" as="image" href="assets/tiktok-logo.webp" />
   <link rel="preload" as="image" href="assets/play-button.webp" />
-
-  <!-- CSS ORIGINAL NEATINS -->
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --bg:#0d1117;--card:#161c24;--border:#212830;
-      --green:#2cc76e;--green-dark:#25b060;
-      --text:#e8edf3;--muted:#7a8896;--yellow:#f5a623;
-      --font:-apple-system,"Segoe UI",system-ui,sans-serif;
-    }
-    body{background:var(--bg);color:var(--text);font-family:var(--font);display:flex;justify-content:center;}
-    .page{max-width:500px;padding:32px 22px;display:flex;flex-direction:column;align-items:center;}
-    h1{text-align:center}
-  </style>
 </head>
 
 <body>
 <div class="page">
 
-  <div class="badge">Vous êtes éligible</div>
-
-  <h1>
-    Être payé pour <span style="color:#2cc76e">jouer</span><br>
-    et <span style="color:#2cc76e">faire défiler</span>
-  </h1>
-
-  <p>Téléchargez. Faites défiler & testez des jeux. Paiement immédiat.</p>
-
-  <a href="https://gypsyniggaaffiliatelink.com">
-    Télécharger & s’inscrire
-  </a>
-
-  <h3>Offres en vedette</h3>
-  <p>Faites défiler des vidéos sur FreeCash</p>
-  <p>Gagnez 149 € par heure en faisant défiler</p>
-
-  <div>
-    <strong>⚠ IMPORTANT</strong><br>
-    <b>Activation requise</b><br>
-    Nouveaux utilisateurs : complétez 2 tâches rapides pour débloquer l’offre.
+  <div class="logos">
+    <div class="logo-box logo-freecash">
+      <img src="assets/freecash-logo.webp" alt="Freecash" fetchpriority="high" />
+    </div>
+    <span class="logo-sep">×</span>
+    <div class="logo-box logo-tiktok">
+      <img src="assets/tiktok-logo.webp" alt="TikTok" fetchpriority="high" />
+    </div>
   </div>
 
-  <h3>Comment ça marche</h3>
+  <div class="badge">
+    Je bent in aanmerking → Vous êtes éligible
+  </div>
 
-  <p><b>1. Téléchargez l’application</b><br>
-  Installez FreeCash & recevez immédiatement 10 €.</p>
+  <h1 class="headline">
+    Être payé pour <span class="accent">jouer</span><br>
+    et <span class="accent">faire défiler</span>
+  </h1>
 
-  <p><b>2. Gagnez de l’argent</b><br>
-  Faites défiler, jouez et gagnez de l’argent réel.</p>
+  <p class="subtext">
+    Téléchargez. Faites défiler & testez des jeux. Payé instantanément.
+  </p>
 
-  <p><b>3. Retirez quand vous voulez</b><br>
-  PayPal, virement bancaire ou cartes cadeaux.</p>
+  <a href="#" class="cta-btn">
+    <div class="cta-text">
+      <strong>Télécharger & s'inscrire</strong>
+      <span>iOS & Android</span>
+    </div>
+  </a>
+
+  <span class="section-label">Offres en vedette</span>
+
+  <div class="offer-card">
+    <div class="offer-info">
+      <div class="offer-title-row">
+        <span class="offer-title">Faire défiler des vidéos sur FreeCash</span>
+        <span class="offer-rate">149€/HEURE</span>
+      </div>
+      <div class="offer-sub">Gagnez 149€ par heure en faisant défiler</div>
+    </div>
+
+    <div class="offer-price">
+      <span class="offer-price-val">149€</span>
+      <span class="offer-stars">5.0</span>
+    </div>
+  </div>
+
+  <div class="activation-box">
+    <span class="activation-badge">⚠ IMPORTANT</span>
+    <div class="activation-body">
+      <div>
+        <div class="activation-title">Activation requise</div>
+        <div class="activation-text">
+          Nouveaux utilisateurs : complétez <span class="activation-highlight">2 tâches rapides</span>
+          pour débloquer l'offre Scroll. Déjà fait ? Accédez simplement à l'offre dans votre tableau de bord !
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <span class="section-label">Comment ça fonctionne</span>
+
+  <div class="steps">
+
+    <div class="step-card">
+      <div class="step-body">
+        <div class="step-title">Téléchargez l'application</div>
+        <div class="step-desc">Installez FreeCash & recevez immédiatement <span class="hi">10€.</span></div>
+        <span class="step-tag">Téléchargement gratuit</span>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-body">
+        <div class="step-title">Gagnez en regardant des vidéos et en testant des jeux</div>
+        <div class="step-desc">
+          Faites défiler, jouez, accomplissez des tâches & gagnez <span class="hi">de l'argent réel.</span>
+        </div>
+        <span class="step-tag">Facile à démarrer</span>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-body">
+        <div class="step-title">Retirez vos gains quand vous le souhaitez</div>
+        <div class="step-desc">
+          Retrait via <span class="hi">PayPal, virement bancaire ou cartes cadeaux.</span>
+        </div>
+        <span class="step-tag">Paiement rapide</span>
+      </div>
+    </div>
+
+  </div>
 
   <footer>
-    Politique de confidentialité | Conditions d’utilisation | Clause de non-responsabilité<br>
-    © 2026 Tous droits réservés
+    <div class="footer-links">
+      <a href="#">Politique de confidentialité</a>
+      <a href="#">Conditions d'utilisation</a>
+      <a href="#">Avertissement</a>
+    </div>
+    <span class="footer-copy">© 2026 Tous droits réservés.</span>
   </footer>
 
 </div>
-
-<script>
-document.addEventListener("DOMContentLoaded",()=>{
-  document.querySelectorAll("a").forEach(e=>{
-    if(e.href && !e.href.includes("#")){
-      if(e.href.includes("?")){
-        e.href += window.location.search.replace("?","&")
-      } else {
-        e.href += window.location.search
-      }
-    }
-  })
-})
-</script>
-
 </body>
 </html>
